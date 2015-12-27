@@ -1,0 +1,3 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:rmad17/rmad17.github.io.git

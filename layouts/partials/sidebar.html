@@ -1,0 +1,26 @@
+<div class="sidebar ">
+  <div class="container">
+    <div class="sidebar-about">
+      <a href="{{ .Site.BaseURL }}"><h1>{{ .Site.Title }}</h1></a>
+      <p class="lead description-custom">
+      {{ with .Site.Params.description }} {{.}} {{ else }}An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.{{end}}
+      </p>
+    </div>
+
+    <ul class="sidebar-nav menus-custom">
+      <li><a href="/blog">engineering blog</a></li>
+      <li><a href="/gblog">generic blog</a></li>
+      <li><a href="/cv">resume</a></li>
+    </ul>
+    <div class="sidebar-nav social">
+      <a class="fa" href="https:twitter.com/rmad1717"><i class="fa fa-twitter-square"></i></a>
+      <a class="fa" href="https://in.linkedin.com/in/souravbasu17"><i class="fa fa-linkedin-square"></i></a>
+      <a class="fa" href="https:github.com/rmad17"><i class="fa fa-github-square"></i></a>
+    </div>
+  </div>
+
+  <div class="footer-custom sidebar-sticky">
+    <p>powered by <a class="custom-font-menlo" href="gohugo.io">Hugo</a></p>
+    <p>{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{.Now.Format "2006"}} Sourav Basu. All rights reserved. {{end}}</p>
+  </div>
+</div>

@@ -1,0 +1,27 @@
+baseurl = "http://souravbasu.com"
+languageCode = "en-us"
+title = "rmad17's"
+theme = "hyde"
+copyright = "Sourav Basu"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+category = "categories"
+canonifyurls = true
+
+[Author]
+	name = "Sourav Basu"
+
+[Permalinks]
+	blog = "/:year/:month/:filename/"
+	code = "/:filename/"
+
+[Taxonomies]
+	tag = "tags"
+
+[Params]
+	themeColor = "theme-base-08"
+	description = "read, code, explore"
+	twitter = "https://twitter.com/rmad1717"
+	github = "https://github.com/rmad17"
+	disqus = "rmad17"
