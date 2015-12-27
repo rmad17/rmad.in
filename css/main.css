@@ -1,0 +1,56 @@
+/*
+  Custom css folder for the site
+*/
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+    width: 60%;
+    color: inherit;
+}
+
+.custom-font-menlo{
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+}
+
+.footer-custom{
+  font-size: 15px;
+  align-self: flex-start;
+  color: #C2C5C5;
+  margin: auto;
+}
+
+.menus-custom{
+  padding-top: 10;
+  font-size: 25px;
+  list-style: none;
+}
+
+.social{
+  align-self: center;
+  padding-top: 30px;
+  margin-right: auto;
+  font-size: 25px;
+}
+
+.description-custom{
+  font-style: italic;
+  color: #C2C5C5;
+}
+
+.adjust-sidebar-width{
+  margin-left: 358px;
+}
+
+.homepage-intro{
+  margin-top: 80px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+}
