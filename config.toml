@@ -20,7 +20,7 @@ canonifyurls = true
 	tag = "tags"
 
 [Params]
-	themeColor = "theme-base-08"
+	themeColor = "theme-base-0d"
 	description = "read, code, explore"
 	twitter = "https://twitter.com/rmad1717"
 	github = "https://github.com/rmad17"
